@@ -1,0 +1,18 @@
+1. Check, if the user login screen received in a fragment in a n arguments or not
+- if the login exists in an arguments, insert the user login into the login field
+Success:
+- If the user exists on the backend, download a picture and download the user's password from the backend
+Error:
+- If the user does not exist on the backend, we will show an error that it does not exist
+
+2. If the user will changes the login, it is necessary to reload the user's picture and password
+
+3. By clicking on the login button, check that the entered password matches the password that was from the backend
+Success:
+- If the passwords match, then download the token and save it to local secure storage
+Error:
+- If the passwords do not match, then show the error from the backend in the error field
+
+3.1. Add when sending credentials to the backend
+- User locale
+- User device screen sizes
